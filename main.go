@@ -52,7 +52,7 @@ func handleRequest(conn net.Conn) {
 		// match EOF
 		if len == 0 {
 			conn.Close()
-			Log("<- EOF: closing connection")
+			Log("<- (connection close) EOF")
 			break
 		}
 
@@ -112,7 +112,7 @@ func handleRequest(conn net.Conn) {
 			continue
 		}
 
-		Log("no match")
+		Log(fmt.Sprintln("<- (dropped)", string(buf)))
 	}
 }
 
