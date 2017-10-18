@@ -10,6 +10,18 @@ cd gps-tracker-tk103
 make
 ```
 
+## Run
+
+Web UI/API
+```
+./gps-tracker-tk103-ui
+```
+
+Data receiver
+```
+./gps-tracker-tk103-receiver
+```
+
 ## Example Output
 
 ```
