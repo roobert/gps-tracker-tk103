@@ -74,7 +74,7 @@ adminip111111 <ip> <port>
 # enable GPRS, TCP, enable heartbeat
 gprs111111,0,0
 
-# always send updates every 30 seconds
+# always send updates every 30 seconds, regardless of probe states
 fix030s030s***n111111
 
 # set timezone to GMT
