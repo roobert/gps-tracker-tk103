@@ -47,3 +47,36 @@ Listening on 0.0.0.0:9000
 2017-10-15 20:47:02 <- (ping) 111222333444555;
 2017-10-15 20:47:02 -> (pong) OK\r\n
 ```
+
+## Configure GPS Unit
+
+```
+# initialize device
+begin123456
+
+# phone device 10 times to set phone number as master number
+
+# add phone number with country code to ensure international incoming calls will be authorized
+admin111111 00<number>
+
+# change default password
+password123456 111111
+
+# set wap gateway
+apn111111 ...
+
+# set wap credentials (optional)
+up111111 <username> <password>
+
+# set address for data receiver
+adminip111111 <ip> <port>
+
+# enable GPRS, TCP, enable heartbeat
+gprs111111,0,0
+
+# always send updates every 30 seconds
+fix030s030s***n111111
+
+# set timezone to GMT
+time zone111111 0
+```
