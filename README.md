@@ -1,6 +1,6 @@
 # gps-tracker-tk103
 
-A receiver and web-ui to receive and display GPS data from TK103 based GPS trackers.
+A receiver and web-ui for data from TK103 based GPS trackers.
 
 ## Build
 
