@@ -21,13 +21,31 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/twpayne/go-geom"
+  packages = ["."]
+  revision = "f8ead8b4672e0bb05caf5ef179962cc7a9f8f876"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/twpayne/go-gpx"
+  packages = ["."]
+  revision = "f52e5d4522a3bd9c8096e96fb2692ceb62cf79b6"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/net"
-  packages = ["context"]
+  packages = ["context","html","html/atom","html/charset"]
   revision = "1087133bc4af3073e18add999345c6ae75918503"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/text"
+  packages = ["encoding","encoding/charmap","encoding/htmlindex","encoding/internal","encoding/internal/identifier","encoding/japanese","encoding/korean","encoding/simplifiedchinese","encoding/traditionalchinese","encoding/unicode","internal/gen","internal/tag","internal/utf8internal","language","runes","transform","unicode/cldr"]
+  revision = "c01e4764d870b77f8abe5096ee19ad20d80e8075"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "45b58a12df73d8d9f691596b7aded186a44de1fa57d136da68f2fd4ca3cbca60"
+  inputs-digest = "b63fba5271cbf8caeaa5562fdcb37509c88a0ac10c8385a26cedb38321c462eb"
   solver-name = "gps-cdcl"
   solver-version = 1
