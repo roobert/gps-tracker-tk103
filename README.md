@@ -1,17 +1,19 @@
 # gps-tracker-tk103
 
+A receiver and web-ui to receive and display GPS data from TK103 based GPS trackers.
+
 ## Build
 
 ```
 git clone git@github.com:roobert/gps-tracker-tk103
 cd gps-tracker-tk103
-go build
+make
 ```
 
 ## Example Output
 
 ```
-$ ./gps-tracker-tk103
+$ ./gps-tracker-tk103-receiver
 Listening on 0.0.0.0:9000
 2017-10-15 20:43:01 <- (handshake) ##,imei:111222333444555,A;
 2017-10-15 20:43:01 -> (handshake) LOAD\r\n
